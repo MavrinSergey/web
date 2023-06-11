@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover {
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
+}
+
+.btn:active {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.0);
+}
+
+.open-pop-up {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -125px;
+    margin-top: -20px;
+    height: 40px;
+    width: 250px;
+    font-weight: 600;
+}
+
+.favorite-movies {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -182.5px;
+    margin-top: -74.5px;
+    padding: 20px;
+    /* height: 40px; */
+    /* width: 250px; */
+    font-weight: 600;
+    background: #68e0cf;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.favorite-movies input {
+    margin-top: 10px;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.favorite-movies__submit {
+    margin-left: 15px;
+    background: linear-gradient(90deg, #68e0cc 0%, #209cff 100%);
+}
